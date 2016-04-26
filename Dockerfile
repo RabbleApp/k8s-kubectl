@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debian:jessie
 
 MAINTAINER Lachlan Evenson <lachlan.evenson@gmail.com>
 
