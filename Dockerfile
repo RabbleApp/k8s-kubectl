@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Lachlan Evenson <lachlan.evenson@gmail.com>
+MAINTAINER Micke Lisinge <me@mike.gg>
 
 ENV SVC_ROOT=/opt/bin
 ENV KUBE_LATEST_VERSION="v1.2.2"
