@@ -3,7 +3,7 @@ FROM debian:jessie
 MAINTAINER Micke Lisinge <me@mike.gg>
 
 ENV SVC_ROOT=/opt/bin
-ENV KUBE_LATEST_VERSION="v1.2.2"
+ENV KUBE_LATEST_VERSION="v1.3.4"
 ENV KUBE_LATEST_URL="https://github.com/kubernetes/kubernetes/releases/download/${KUBE_LATEST_VERSION}/kubernetes.tar.gz"
 
 RUN apt-get update && apt-get install -y wget zip && apt-get clean && apt-get purge
